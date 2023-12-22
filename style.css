@@ -117,7 +117,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1rem 0 1rem  0;
+    padding:1rem 0 1rem 0;
     z-index: 10;
 }
 .sticky-nav-icons{
@@ -192,7 +192,7 @@ a{
     width: 25%;
 }
 .player{
-    width:50%;
+    width:33.3%;
 }
 .controls{
     width:25%;
@@ -240,7 +240,50 @@ a{
       flex-direction: column;
     }
     .sidebar {
-      width: 70%;
+      width: 100%;
       margin: 0;
     }
+}
+.album{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width:33.3%;
+}
+.i img{
+    height: 5rem;
+    width: 5rem;
+    flex-shrink: 0;
+    isolation:isolate;
+    margin-inline-end: 8px;
+}
+.ii{
+    margin: 0 1rem;
+}
+.iii{
+    color: hsla(0,0%,100%,.7);
+}
+.control{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 33.3%;
+}
+.c1{
+    margin-left: 1rem;
+}
+.c2{
+    margin-left: 1rem;
+}
+.c3{
+    margin-left: 1rem;
+
+}
+.c4{
+    margin-left: 1rem;
+}
+.c5{
+    margin-left: 1rem;
 }
